@@ -1,0 +1,821 @@
+.part1{
+	background:#151515;
+	left: 0;
+	top: 0;
+	margin: 0px;
+	padding: 0px;
+    background-size: cover;
+    background-position:top;	
+}
+.part1 img{
+	display: block;
+	width: 100%;
+	height: 704px;
+	margin-top: -3%;
+	object-fit: cover;
+	object-position: top;
+	
+	will-change: transform;
+	transform: perspective(1500px) rotateX(0deg) rotateY(0deg);
+	
+}
+.navbar{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px 40px;
+	color:#fff;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 14px;
+	z-index: 12;
+}
+.navbar a, .ulist a, .rmenu1 a{
+	position: relative;
+	text-decoration: none;
+
+}
+.navbar a:after, .ulist a:after, .rmenu1 a:after{    
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navbar a:hover:after, .ulist a:hover:after, .rmenu1 a:hover:after{ 
+  width: 100%; 
+  left: 0;
+}
+.navbar2{
+	position: relative;
+	padding-right: 16px;
+}
+.left{
+	text-align: left;
+	padding: 17px 0px;
+}
+.left a{
+	color:#FFFFFF;
+}
+.logo{
+	
+	
+}
+.logo > a > img{
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	height: 56px;
+	width: 56px;
+}
+.right{
+	text-align: left;
+	margin: 8px 0px;
+}
+.right > a > img{
+	height: 22px;
+	width: 32px;
+	color: red;
+}
+.right > a > img{
+	margin-left: 30px;
+}
+.ulist{
+	text-align: right;
+}
+.ulist > li > a{
+	color:#FFFFFF;
+}
+.ulist li{
+	margin-left: 12px;
+    display: inline;
+}
+.hline{
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 13;
+}
+.hline hr{
+	display: block;
+	width: 26px;
+	border-color: #01f7b6;
+	margin-left: 0px;
+}
+.hr1{
+	height: 1px;
+	padding: 0px 0px 0px 10px;
+	margin-top: -18px;
+}
+.hr2{
+	height: 1px;
+	padding: 0px 0px 0px 10px;
+	margin-top: -11px;
+}
+.hr3{
+	height: 1px;
+	padding: 0px 0px 0px 10px;
+	margin-top: -4px;
+}
+.part2{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 97px 0px;
+	color:#fff;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 14px;
+	z-index: 0;
+}
+.rlist{
+	
+}
+.rlist li{
+	list-style: none;
+	transform: rotate(270deg);
+	white-space: nowrap;
+	display: block;
+	padding-bottom: 52px;
+
+}
+.rlist hr{
+	width: 55px;
+	display: inline-block;
+	border-color:white;
+	position: relative;
+	top: 3px;
+	left: 26px;
+}
+.rmenu1{
+	margin-top: 153px;
+}
+.rmenu2{
+	padding-top: 103px;
+}
+.rmenu2 > li > span{
+	
+}
+.rmenu1 > li > a{
+	color:#FFFFFF;
+}
+.num01{
+	padding-top: 56px;
+}
+.s01{
+	font-family: "Poppins", sans-serif;
+	font-size: 17px;
+}
+.sline{
+	display: block;
+	margin-top: -10px;
+	margin-left: -26px;
+	width: 25px;
+	
+}
+.sline hr{
+border-color: red;
+}
+.trnex{
+	margin-left: -50px;
+	font-size: 16px;
+	color:#CFCFCF
+}
+.racer{
+	font-family: "Poppins", sans-serif;
+	width: 100%;
+	float: left;
+	font-weight: 800;
+	color:#e8293b;
+	font-size: 10vw;
+	line-height: 1;
+}
+.female{
+	font-family: "Poppins", sans-serif;
+	font-size: 10vw;
+	width: 100%;
+	font-weight: 800;
+	-webkit-text-stroke-width: 1px;
+	transform: translateY(-35%);
+	margin-left: 4%;
+	display: flex;
+	-webkit-text-stroke-color:
+	#fff;
+	color:
+	transparent;
+	line-height: 136px;
+}
+.lmore{
+	height: 57px;
+}
+.lmore div{
+	height: 57px;
+}
+.lmore hr{
+	margin-top: 25px;
+	width: 43px;
+}
+.text{
+	color: #ffffff;
+	display: inline-block;
+    height: 57px;
+	margin-top: 15px;
+	font-family: "Poppins", sans-serif;
+}
+.lmore a:hover{
+	text-decoration: none;
+}
+.dot{
+	height: 51px;
+	width: 51px;
+	border-radius: 50%;
+	display: none;
+	position: absolute;
+	border: 1px solid white;
+	top: 1px;
+	right: 12px;
+}
+.col5{
+	margin: 0px;
+	padding: 0px;
+}
+.col5 div{
+	margin: 0px;
+	padding: 0px;
+	height: 280px;
+}
+.col01hr span{
+	font: initial;
+	float: inline-end;
+	font-size: 13px;
+}
+.col01hr hr{
+	width: 64px;
+	display: inline-block;
+	border-color: #01f7b6;
+	margin-right: 0px;
+	margin-top: 137px;
+}
+.showmenu{
+	display: none;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+}
+.cross{
+	height: 22px;
+	width: 22px;
+	margin-left: 13px;
+	display: none;
+}
+.soundtxt{
+	float: right;
+	margin-top: 42%;
+	margin-right: 89px;
+}
+.menulist{
+	height: 195px;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 13%;
+	padding-top: 11%;
+}
+.menulist li, .menulist2 li{
+	display: inline;
+}
+.menulist a{
+	text-decoration: none;
+	margin-left: 20px;
+	color: white;
+	position: relative;
+}
+.menulist a:after{    
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.menulist a:hover:after{ 
+  width: 100%; 
+  left: 0; 
+}
+.menulist2{
+	height: 90px;
+	font-size: 28px;
+	font-weight: bold;
+	padding-left: 9%;
+	padding-top: 0%;
+	position: absolute;
+	display: none;
+}
+.menulist2 a{
+	text-decoration: none;
+	margin-left: 20px;
+	color: white;
+}
+.menulist2 a:after{    
+	display: none;
+}
+.menulist2 a:hover{
+	text-decoration: none;
+	color: aqua;
+}
+.letscreate{
+	color: #01f7b6;
+	font-size: 40px;
+	font-stretch: ultra-condensed;
+	text-align: center;
+	margin-top: 5%;
+}
+.page2{
+	padding-top: 96px;
+	margin-top: 50px;
+}
+.page2 h2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 270px;
+	position: absolute;
+	z-index: -11;
+	font-weight: bold;
+	opacity: 10%;
+	font-stretch: ultra-expanded;
+	top: 54px;
+	left: 9px;
+}
+.page2 h3,.page2 h5{
+	font-family: "Fjalla One", sans-serif;
+}
+.page2 h3{
+	color:
+	black;
+	line-height: 40px;
+	font-variant: all-petite-caps;
+	font-size: 30px;
+}
+.page2 h5{
+	color:#838383 ;
+}
+.page2 h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 60px;
+	color:
+	black;
+	font-weight: bold;
+}
+.page2 h4{
+	line-height: 40px;
+	font-size: 20px;
+	color:
+	black;
+}
+.horizon u{
+	text-decoration: underline dotted red;
+}
+.headings{
+	padding-top: 50px;
+}
+.horizon > a > hr{
+	width: 34px;
+	display: inline-block;
+	border-color: black;
+	margin-right: 0px;
+	position: relative;
+	top: 16px;
+}
+.horizon > a > b{
+	padding-left: 10px;
+}
+.horizon a{
+	color: black;
+}
+.horizon a:hover{
+	text-decoration: none;
+}
+.coloring{
+	font-family: "Fjalla One", sans-serif;
+	color: #01f7b6;
+	font-size: 14px;
+}
+.nlist{
+	padding-top: 50px;
+	padding-left: 35px;
+}
+.nlisthead{
+	font-family: "Fjalla One", sans-serif;
+	font-size: 17px;
+}
+.nlist hr{
+	width: 46px;
+	display: inline-block;
+	border-color: #01f7b6;
+	position: relative;
+	top: 14px;
+	margin-left: 10px;
+	margin-right: 14px;
+}
+#myVideo {
+	position: absolute;
+	right: 0;
+	z-index: -1;
+	top: 0px;
+	object-fit: cover;
+	height: 808px;
+	width: 100%;
+}
+.page3{
+	margin-top: 100px;
+	padding-top: 140px;
+	color: white;
+}
+.page3 h5{
+	padding-left: 35px;
+}
+.page3 h1{
+	font-size: 66px;
+	padding-left: 35px;
+	font-weight: bold;
+	line-height: 60px;
+	text-shadow: 2px 0px;
+}
+.nlist p{
+	margin-top: 30px;
+	padding-left: 90px;
+	font-size: 19px;
+}
+.nlist ul{
+	font-size: 17px;
+	padding-left: 106px;
+	padding-top: 30px;
+}
+.page4a{
+	margin-top: 270px;
+	margin-bottom: 138px;
+}
+.page4a h5{
+	font-family: "Fjalla One", sans-serif;
+}
+.page4a h2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 270px;
+	position: absolute;
+	z-index: -11;
+	font-weight: bold;
+	opacity: 10%;
+	font-stretch: ultra-expanded;
+	top: -40px;
+	left: 20px;
+}
+.page4a h5{
+	color:#838383;
+}
+.page4a h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 60px;
+	color:black;
+	font-weight: bold;
+	padding-top: 12px;
+}
+.p4a, .p4b, .p4c{
+	padding-left: 42px;
+	padding-right: 42px;
+	margin-bottom: 150px;
+	background-size: cover;
+    background-position:center;
+	overflow: hidden;
+}
+.p4a img, .p4b img, .p4c img{
+	width: 100%;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+}	
+.p4a:hover img, .p4b:hover img, .p4c:hover img{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+}
+.p4ai, .p4bi, .p4ci{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+	overflow: hidden;
+	background-position: center;
+}
+.p4a:hover .p4ai, .p4b:hover .p4bi, .p4c:hover .p4ci{
+	-webkit-transform: scale(.95);
+	transform: scale(.95);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+	overflow: hidden;
+}
+.p4ah, .p4ch{
+	left: -50px;
+}
+.p4a div, .p4b div, .p4c div{
+	margin: 0px;
+	padding: 0px;
+}
+.p4a a, .p4b a, .p4c a, .page5 a, .p6j a{
+	text-decoration: none;
+	color: black;
+}
+.p4a a, .p4b a, .p4c a{
+	
+}
+.p4a h1, .p4c h1{
+	font-family: "Fjalla One", sans-serif;
+	color:#838383;
+	font-size: 14px;
+	padding-left: 105px;
+	line-height: 65px;
+}
+.p4a h2, .p4c h2{
+	color: #01f7b6;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 8vw;
+	line-height: 5vw;
+}
+.p4a h3, .p4c h3{
+	color: black;
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding-left: 105px;
+	font-size: 5vw;
+	line-height: 5vw;
+}
+.p4a h4, .p4c h4{
+	padding-left: 105px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.p4a hr, .p4c hr{
+	width: 46px;
+	display: inline-block;
+	border-color: black;
+	position: relative;
+	top: 15px;
+	margin-right: 20px;
+}
+.p4b h1{
+	text-align: right;
+	padding-right: 52px;
+	font-family: "Fjalla One", sans-serif;
+	color:#838383;
+	font-size: 14px;
+	line-height: 65px;
+}
+.p4b h2{
+	color: #01f7b6;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 8vw;
+	line-height: 5vw;
+	margin-left: 52px;
+	position:relative;
+	z-index: 1;
+}
+.p4b h3{
+	text-align: right;
+	padding-right: 52px;
+	color: black;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 5vw;
+	line-height: 5vw;
+}
+.p4b h4{
+	text-align: right;
+	padding-right: 52px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.p4b hr{
+	width: 46px;
+	display: inline-block;
+	border-color: black;
+	position: relative;
+	top: 15px;
+	margin-right: 20px;
+}
+.p4b img{
+	top: 0px;
+	right: 0px;
+}
+.page5{
+	background:#01f7b6;
+	padding-top: 128px;
+	padding-left: 139px;
+	padding-bottom: 128px;
+}
+.page5 h1{
+	font-family: "Fjalla One", sans-serif;
+	color:black;
+	font-size: 14px;
+}
+.page5 h2{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 4vw;
+	color:black;
+}
+.page5 h3{
+	font-family: "Fjalla One", sans-serif;
+	color:black;
+	font-size: 25px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-top: 72px;
+}
+.page5 h4{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+}
+.page5 hr{
+	width: 46px;
+	display: inline-block;
+	border-color: black;
+	position: relative;
+	top: 0px;
+	top: 15px;
+	margin-right: 20px;
+}
+.page5 h5{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 270px;
+	position: absolute;
+	font-weight: bold;
+	opacity: 10%;
+	font-stretch: ultra-expanded;
+	top: 110px;
+	left: 120px;
+}
+.page6{
+	padding: 150px 0px;
+	background: url(../images/bg.png);
+}
+.page6 h1{
+	color: #838383;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 14px;
+	margin-top: 0px;
+	padding-left: 36px;
+}
+.page6 h2{
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding-left: 36px;
+	font-size: 55px;
+	color:black;
+	padding-top: 10px;
+}
+.page6 h3{
+	padding-left: 36px;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 25px;
+	padding-top: 40px;
+	line-height: 41px;
+}
+.page6 h4{
+	padding-left: 36px;
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.page6 hr{
+	width: 46px;
+	display: inline-block;
+	border-color: black;
+	position: relative;
+	top: 15px;
+	margin-right: 20px;
+}
+.logoicon{
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+.logoicon ul{
+	padding: 0px;
+	margin: 97px 0px;
+}
+.logoicon li{
+	position: relative;
+	display: inline;
+}
+.logoicon small{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 43px;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 16px;
+}
+.logoicon img{
+	width: 136px;
+	border: 1px solid #eee;
+	height: 96px;
+	object-fit: scale-down;
+	padding: 15px;
+	margin: 10px 8px;
+}
+.page7{
+	background:#0e0e0e;
+	padding: 100px 124px;
+}
+.page7 img{
+	height: 60px;
+}
+.page7 h1{
+	color: #01f7b6;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+}
+.page7 li{
+	display: inline;
+	margin-right: 24px;
+}
+
+.page7 h2{
+	font-family: "Fjalla One", sans-serif;
+	color:#01f7b6;
+	font-size: 20px;
+	margin-top: 80px;
+}
+.page7 ul{
+	padding-left: 0px;
+	color:white;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.info{
+	color: white;
+	padding-left: 0px;
+	font-size: 18px;
+	margin-top: 70px;
+}
+.info a{
+	color: white;
+	text-decoration: underline;
+}
+.connect a{
+	color: white;
+	position: relative;
+	text-decoration: none;
+}
+.connect a:after{    
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.connect a:hover:after{ 
+  width: 100%; 
+  left: 0; 
+}
+/*PRELOADER*/
+
+.spinner-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000000;
+	z-index: 999999;
+}
+.spinner{
+	position: absolute;
+	top: 48%;
+	left: 48%;
+}
+
+.mfleft, .mfright{
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	top: 50%;
+}
+.mfleft{
+	left: 10px;
+}
+.mfright{
+	margin-right: 10px;
+}
